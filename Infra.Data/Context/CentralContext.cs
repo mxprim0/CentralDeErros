@@ -6,8 +6,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CentralDeErros.Infra.Data.Context
 {
-    public class CentralContext : DbContext
+    
+    public class CentralContext : DbContext,IDisposable
     {
+        public DbSet<Users> User { get; set; }
+        public DbSet<Error> Errors { get; set; }
+        public DbSet<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public DbSet<Level> Levels { get; set; }
+        public DbSet<Situation> Situations { get; set; }
+        public DbSet<EnvironmentLevel> EnvironmentLevels { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
