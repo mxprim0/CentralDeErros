@@ -1,0 +1,15 @@
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfo.cs
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.deps.json
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.json
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.dev.json
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CopyComplete
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using CentralDeErros.Api.Entidades;
+
+namespace CentralDeErros.Infra.Data.Interfaces
+{
+    public interface IUserRepository
+    {
+
+        IEnumerable<Users> Get();
+        Users GetById(int Id);
+        Users Save(Users item);
+        Users Update(Users item);
+        bool Delete(int Id);
+    }
+}
