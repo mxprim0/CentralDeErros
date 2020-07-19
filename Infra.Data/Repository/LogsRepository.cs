@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CentralDeErros.Infra.Data.Repository
 {
-    public class ErrorOcurrencceRepository:IErrorOccurrenceRepository
+    public class ErrorOcurrencceRepository:ILogsRepository
     {
         private readonly CentralContext _context;
         public ErrorOcurrencceRepository(CentralContext context)
@@ -17,16 +17,16 @@ namespace CentralDeErros.Infra.Data.Repository
             _context = context;
         }
 
-        public IEnumerable<ErrorOccurrence> Get()
+        public IEnumerable<Logs> Get()
         {
             return _context.ErrorOccurrences;
         }
 
-        public ErrorOccurrence GetById(int Id)
+        public Logs GetById(int Id)
         {
             return _context.ErrorOccurrences.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
         }
-        public ErrorOccurrence Save(ErrorOccurrence item)
+        public Logs Save(Logs item)
         {
             var state = item.ErrorOccurrenceId == 0 ? EntityState.Added : EntityState.Modified;
             _context.Entry(item).State = state;
@@ -34,7 +34,7 @@ namespace CentralDeErros.Infra.Data.Repository
             _context.SaveChanges();
             return item;
         }
-        public ErrorOccurrence Update(ErrorOccurrence item)
+        public Logs Update(Logs item)
         {
             var _item = _context.ErrorOccurrences.Where(x => x.ErrorOccurrenceId == item.ErrorOccurrenceId).FirstOrDefault();
 

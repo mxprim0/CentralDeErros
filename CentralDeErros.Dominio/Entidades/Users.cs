@@ -37,6 +37,6 @@ namespace CentralDeErros.Api.Entidades
         [Required]
         public DateTime Expiration { get; set; }
 
-        public ICollection<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public ICollection<Logs> ErrorOccurrences { get; set; }
     }
 }
