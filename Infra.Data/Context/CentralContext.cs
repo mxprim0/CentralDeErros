@@ -11,7 +11,7 @@ namespace CentralDeErros.Infra.Data.Context
     {
         public DbSet<Users> User { get; set; }
         public DbSet<Error> Errors { get; set; }
-        public DbSet<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public DbSet<Logs> ErrorOccurrences { get; set; }
         public DbSet<Level> Levels { get; set; }
         public DbSet<Situation> Situations { get; set; }
         public DbSet<EnvironmentLevel> EnvironmentLevels { get; set; }
@@ -29,7 +29,7 @@ namespace CentralDeErros.Infra.Data.Context
             modelBuilder.Entity<Level>().HasMany(l => l.Errors).WithOne(l => l.Level).IsRequired();
             modelBuilder.Entity<EnvironmentLevel>().HasMany(e => e.Errors).WithOne(e => e.Environment).IsRequired();
             modelBuilder.Entity<Error>().HasKey(e => e.ErrorId);
-            modelBuilder.Entity<ErrorOccurrence>().HasKey(e => e.ErrorOccurrenceId);
+            modelBuilder.Entity<Logs>().HasKey(e => e.ErrorOccurrenceId);
         }
     }
 

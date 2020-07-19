@@ -19,6 +19,6 @@ namespace CentralDeErros.Api.Entidades
         [StringLength(30)]
         [Required]
         public string SituationName { get; set; }
-        public ICollection<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public ICollection<Logs> ErrorOccurrences { get; set; }
     }
 }

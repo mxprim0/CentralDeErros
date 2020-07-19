@@ -9,7 +9,7 @@ namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ErrorOcurrenceController : ControllerBase
+    public class LogsController : ControllerBase
     {
         // GET: api/ErrorOcurrence
         [HttpGet]

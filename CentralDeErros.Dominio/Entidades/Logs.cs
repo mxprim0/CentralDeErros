@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace CentralDeErros.Api.Entidades
 {
     [Table("ERROR_OCCURRENCE")]
-    public class ErrorOccurrence
+    public class Logs
     {
         [Column("ID")]
         [Key]
