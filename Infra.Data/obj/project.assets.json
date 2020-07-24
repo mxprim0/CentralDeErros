@@ -1280,16 +1280,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "CentralDeErros.Dominio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CentralDeErros.Dominio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CentralDeErros.Dominio.dll": {}
-        }
       }
     }
   },
@@ -4955,16 +4945,10 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "CentralDeErros.Dominio/1.0.0": {
-      "type": "project",
-      "path": "../CentralDeErros.Dominio/CentralDeErros.Dominio.csproj",
-      "msbuildProject": "../CentralDeErros.Dominio/CentralDeErros.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CentralDeErros.Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.4",
@@ -5001,11 +4985,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

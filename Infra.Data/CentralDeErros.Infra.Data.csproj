@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CentralDeErros.Dominio\CentralDeErros.Dominio.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Settings\" />
   </ItemGroup>
 

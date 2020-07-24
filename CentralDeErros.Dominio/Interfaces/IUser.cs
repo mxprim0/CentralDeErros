@@ -1,4 +1,4 @@
-﻿using CentralDeErros.Api.Entidades;
+﻿using CentralDeErros.Infra.Entidades;
 
 namespace CentralDeErros.Api.Interfaces
 {

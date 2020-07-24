@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\Infra.Data\CentralDeErros.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

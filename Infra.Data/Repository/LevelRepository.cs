@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CentralDeErros.Api.Entidades;
+using CentralDeErros.Infra.Entidades;
 using CentralDeErros.Infra.Data.Context;
 using CentralDeErros.Infra.Data.Interfaces;
 using Microsoft.EntityFrameworkCore;

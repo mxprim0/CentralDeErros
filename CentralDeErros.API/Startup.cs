@@ -16,7 +16,11 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;
-
+using CentralDeErros.Infra.Data.Context;
+using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Dominio.Services;
+using CentralDeErros.Infra.Data.Interfaces;
+using CentralDeErros.Infra.Data.Repository;
 
 namespace CentralDeErros.API
 {
@@ -69,6 +73,10 @@ namespace CentralDeErros.API
                 }   
                 );
             });
+
+            services.AddDbContext<CentralContext>();
+            services.AddScoped<ILogsService, LogsService>();
+            services.AddScoped<ILogsRepository, LogsRepository>();
 
 
             services.AddControllers();
