@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CentralDeErros.Api.Entidades;
+using CentralDeErros.Infra.Entidades;
 using Microsoft.EntityFrameworkCore;
 
 namespace CentralDeErros.Infra.Data.Context
@@ -11,7 +11,7 @@ namespace CentralDeErros.Infra.Data.Context
     {
         public DbSet<Users> User { get; set; }
         public DbSet<Error> Errors { get; set; }
-        public DbSet<Logs> ErrorOccurrences { get; set; }
+        public DbSet<Logs> Logs { get; set; }
         public DbSet<Level> Levels { get; set; }
         public DbSet<Situation> Situations { get; set; }
         public DbSet<EnvironmentLevel> EnvironmentLevels { get; set; }
@@ -25,7 +25,7 @@ namespace CentralDeErros.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>().HasMany(u => u.ErrorOccurrences).WithOne(u => u.User).IsRequired();
-            modelBuilder.Entity<Situation>().HasMany(s => s.ErrorOccurrences).WithOne(s => s.Situation).IsRequired();
+            //modelBuilder.Entity<Situation>().HasMany(s => s.ErrorOccurrences).WithOne(s => s.Situation).IsRequired();
             modelBuilder.Entity<Level>().HasMany(l => l.Errors).WithOne(l => l.Level).IsRequired();
             modelBuilder.Entity<EnvironmentLevel>().HasMany(e => e.Errors).WithOne(e => e.Environment).IsRequired();
             modelBuilder.Entity<Error>().HasKey(e => e.ErrorId);

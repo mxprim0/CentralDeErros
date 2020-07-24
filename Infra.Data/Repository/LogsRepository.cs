@@ -2,29 +2,67 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CentralDeErros.Api.Entidades;
 using CentralDeErros.Infra.Data.Context;
 using CentralDeErros.Infra.Data.Interfaces;
+using CentralDeErros.Infra.Entidades;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace CentralDeErros.Infra.Data.Repository
 {
-    public class ErrorOcurrencceRepository:ILogsRepository
+    public class LogsRepository:ILogsRepository
     {
         private readonly CentralContext _context;
-        public ErrorOcurrencceRepository(CentralContext context)
+        public LogsRepository(CentralContext context)
         {
             _context = context;
         }
 
         public IEnumerable<Logs> Get()
         {
-            return _context.ErrorOccurrences;
+            return _context.Logs.Where(a=>!a.Archived);
+        }
+
+        public List<Logs> GetByLevel(int Level)
+        {
+            return _context.Logs.Where(a => !a.Archived).Where(x => x.LevelId == Level).ToList();
+        }
+
+        public List<Logs> GetByDescription(string description)
+        {
+            return _context.Logs.Where(a => !a.Archived).Where(a => a.Description.Contains(description)).ToList();
+        }
+
+        public List<Logs> GetByTitle(string title)
+        {
+            return _context.Logs.Where(a => !a.Archived).Where(a => a.Title.Contains(title)).ToList();
+        }
+
+        public Logs ArchiveLog(int logId)
+        {
+            var logToArchive = _context.Logs.Find(logId);
+            if (logToArchive == null)
+            {
+                return null;
+            }
+
+            logToArchive.Archived = true;
+
+            _context.Entry(logToArchive).State = EntityState.Modified;
+            _context.SaveChanges();
+
+            return logToArchive;
+        }
+
+
+        public List<Logs> GetByEnvironment(int env)
+        {
+            return _context.Logs.Where(x => x.Error.EnvironmentId == env).ToList();
         }
 
         public Logs GetById(int Id)
         {
-            return _context.ErrorOccurrences.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
+            return _context.Logs.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
         }
         public Logs Save(Logs item)
         {
@@ -36,7 +74,7 @@ namespace CentralDeErros.Infra.Data.Repository
         }
         public Logs Update(Logs item)
         {
-            var _item = _context.ErrorOccurrences.Where(x => x.ErrorOccurrenceId == item.ErrorOccurrenceId).FirstOrDefault();
+            var _item = _context.Logs.Where(x => x.ErrorOccurrenceId == item.ErrorOccurrenceId).FirstOrDefault();
 
             if (_item != null)
             {
@@ -48,17 +86,17 @@ namespace CentralDeErros.Infra.Data.Repository
 
             return item;
         }
-        public bool Delete(int Id)
+        public Logs Delete(int Id)
         {
-            var _erros = _context.ErrorOccurrences.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
+            var _erros = _context.Logs.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
 
             if (_erros != null)
             {
                 _context.Entry(_erros).State = EntityState.Deleted;
                 _context.SaveChanges();
-                return true;
+                return _erros;
             }
-            return false;
+            return _erros;
         }
 
     }

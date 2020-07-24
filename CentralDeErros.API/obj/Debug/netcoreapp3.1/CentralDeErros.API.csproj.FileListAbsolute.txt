@@ -223,3 +223,4 @@ C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.AP
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CoreCompileInputs.cache
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

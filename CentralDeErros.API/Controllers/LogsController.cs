@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CentralDeErros.Infra.Entidades;
+using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Dominio.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CentralDeErros.API.Dto;
 
 namespace CentralDeErros.API.Controllers
 {
@@ -11,36 +15,145 @@ namespace CentralDeErros.API.Controllers
     [ApiController]
     public class LogsController : ControllerBase
     {
-        // GET: api/ErrorOcurrence
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly ILogsService logs;
+
+        public LogsController(ILogsService logsService)
         {
-            return new string[] { "value1", "value2" };
+            logs = logsService;
+        }
+        // GET: api/ErrorOcurrence
+        [HttpGet("AllLogs")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<List<Logs>> Get()
+        {
+            IList<Logs> Alllogs = logs.AllLogs();
+
+            if (Alllogs.Count()>0)
+            {
+                return Ok(Alllogs);
+            }
+            else
+            {
+                return NoContent();
+            }
+
         }
 
-        // GET: api/ErrorOcurrence/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        // GET: api/ErrorOcurrence
+        [HttpGet("GetByEnvironment")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        public ActionResult<List<Logs>> Get(int env)
         {
-            return "value";
+            IList<Logs> Alllogs = logs.getLogsByEnvironment(env);
+
+            if (Alllogs.Count() > 0)
+            {
+                return Ok(Alllogs);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
         // POST: api/ErrorOcurrence
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("Search Logs")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+
+        public ActionResult<Logs> Post([FromBody] SearchDTO searchDTO)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (searchDTO.Type > 3)
+            {
+                return BadRequest("Tipo de busca deve ser: 1, 2 ou 3");
+            }
+
+            IList<Logs> Alllogs = logs.searchLogs(searchDTO.Type, searchDTO.Level, searchDTO.Title, searchDTO.Description);
+
+            if (Alllogs.Count() > 0)
+            {
+                return Ok(Alllogs);
+            }
+            else
+            {
+                return NoContent();
+            }
+        }
+
+        [HttpPost("Add Logs")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+
+        public ActionResult<Logs> Post([FromBody] Logs log)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = logs.addLog(log);
+
+
+            if (result!=null)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
         // PUT: api/ErrorOcurrence/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("Archive Logs")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        public ActionResult<Logs> Put(int id)
         {
+     
+            if (id == null)
+            {
+                return NoContent();
+            }
+
+            var result= logs.ArchiveLog(id);
+
+            if (result == null)
+            {
+                return NoContent();
+            }
+
+            return Ok("Log Arquivado");
+
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("Delete Log")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        public ActionResult<Logs> Delete(int id)
         {
+            var result = logs.DeleteLog(id);
+            if (result == null)
+            {
+                return NoContent();
+            }
+
+            return Ok(result);
         }
     }
 }
