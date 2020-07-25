@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CentralDeErros.Api.Entidades
+namespace CentralDeErros.Infra.Entidades
 {
     [Table("ENVIRONMENT")]
     public class EnvironmentLevel

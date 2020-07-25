@@ -7,3 +7,6 @@ C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Do
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfo.cs
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete

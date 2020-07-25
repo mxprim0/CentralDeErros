@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CentralDeErros.Api.Entidades
+namespace CentralDeErros.Infra.Entidades
 {
     [Table("ERROR")]
     public class Error

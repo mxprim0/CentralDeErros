@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace CentralDeErros.Api.Entidades
+namespace CentralDeErros.Infra.Entidades
 {
     [Table ("USERS")]
     public class Users
@@ -37,6 +37,6 @@ namespace CentralDeErros.Api.Entidades
         [Required]
         public DateTime Expiration { get; set; }
 
-        public ICollection<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public ICollection<Logs> ErrorOccurrences { get; set; }
     }
 }

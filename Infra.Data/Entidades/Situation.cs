@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CentralDeErros.Api.Entidades
+namespace CentralDeErros.Infra.Entidades
 {
     [Table("SITUATION")]
     public class Situation
@@ -19,6 +19,6 @@ namespace CentralDeErros.Api.Entidades
         [StringLength(30)]
         [Required]
         public string SituationName { get; set; }
-        public ICollection<ErrorOccurrence> ErrorOccurrences { get; set; }
+        public ICollection<Logs> ErrorOccurrences { get; set; }
     }
 }

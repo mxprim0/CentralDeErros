@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CentralDeErros.Infra.Data.Migrations
 {
-    public partial class CreateDatabase : Migration
+    public partial class addDatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -98,31 +98,43 @@ namespace CentralDeErros.Infra.Data.Migrations
                 {
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ORIGIN = table.Column<string>(maxLength: 200, nullable: false),
-                    DETAILS = table.Column<string>(maxLength: 2000, nullable: false),
+                    DESCRIPTION = table.Column<string>(maxLength: 2000, nullable: false),
+                    TITLE = table.Column<string>(maxLength: 2000, nullable: false),
+                    EVENTS = table.Column<string>(maxLength: 2000, nullable: false),
+                    ARCHIVED = table.Column<bool>(nullable: false),
                     DATE_TIME = table.Column<DateTime>(nullable: false),
-                    UserId = table.Column<int>(nullable: false),
-                    ErrorId = table.Column<int>(nullable: false),
-                    SituationId = table.Column<int>(nullable: false)
+                    USERID = table.Column<int>(nullable: false),
+                    USER_ID = table.Column<int>(nullable: false),
+                    ERRORID = table.Column<int>(nullable: false),
+                    ERROR_ID = table.Column<int>(nullable: true),
+                    LEVELID = table.Column<int>(nullable: false),
+                    LEVEL_ID = table.Column<int>(nullable: true),
+                    SituationId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ERROR_OCCURRENCE", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_ERROR_OCCURRENCE_ERROR_ErrorId",
-                        column: x => x.ErrorId,
+                        name: "FK_ERROR_OCCURRENCE_ERROR_ERROR_ID",
+                        column: x => x.ERROR_ID,
                         principalTable: "ERROR",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_ERROR_OCCURRENCE_LEVEL_LEVEL_ID",
+                        column: x => x.LEVEL_ID,
+                        principalTable: "LEVEL",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_ERROR_OCCURRENCE_SITUATION_SituationId",
                         column: x => x.SituationId,
                         principalTable: "SITUATION",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_ERROR_OCCURRENCE_USERS_UserId",
-                        column: x => x.UserId,
+                        name: "FK_ERROR_OCCURRENCE_USERS_USER_ID",
+                        column: x => x.USER_ID,
                         principalTable: "USERS",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -139,9 +151,14 @@ namespace CentralDeErros.Infra.Data.Migrations
                 column: "LevelId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ERROR_OCCURRENCE_ErrorId",
+                name: "IX_ERROR_OCCURRENCE_ERROR_ID",
                 table: "ERROR_OCCURRENCE",
-                column: "ErrorId");
+                column: "ERROR_ID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ERROR_OCCURRENCE_LEVEL_ID",
+                table: "ERROR_OCCURRENCE",
+                column: "LEVEL_ID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ERROR_OCCURRENCE_SituationId",
@@ -149,9 +166,9 @@ namespace CentralDeErros.Infra.Data.Migrations
                 column: "SituationId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ERROR_OCCURRENCE_UserId",
+                name: "IX_ERROR_OCCURRENCE_USER_ID",
                 table: "ERROR_OCCURRENCE",
-                column: "UserId");
+                column: "USER_ID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
