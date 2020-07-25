@@ -90,7 +90,7 @@ namespace CentralDeErros.API.Controllers
             }
         }
 
-        [HttpPost("Add Logs")]
+        [HttpPost("Add Logs2")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -115,7 +115,7 @@ namespace CentralDeErros.API.Controllers
         }
 
         // PUT: api/ErrorOcurrence/5
-        [HttpPut("Archive Logs")]
+        [HttpPut("Archive Logs2")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
