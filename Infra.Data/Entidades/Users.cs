@@ -29,14 +29,10 @@ namespace CentralDeErros.Infra.Entidades
         [Required]
         public string Password { get; set; }
 
-        [Column("TOKEN")]
-        [MaxLength(400)]
-        public string Token { get; set; }
-
-        [Column("EXPIRATION")]
+        [Column("ROLE")]
+        [StringLength(50)]
         [Required]
-        public DateTime Expiration { get; set; }
-
+        public string Role { get; set; }
         public ICollection<Logs> ErrorOccurrences { get; set; }
     }
 }

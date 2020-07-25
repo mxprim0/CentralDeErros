@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CentralDeErros.Infra.Data.Migrations
 {
     [DbContext(typeof(CentralContext))]
-    [Migration("20200724012728_addDatabase")]
+    [Migration("20200725145533_addDatabase")]
     partial class addDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.4")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -150,7 +150,6 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .HasMaxLength(2000);
 
                     b.Property<int?>("USER_ID")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int>("UserId")
@@ -203,10 +202,6 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .HasColumnType("nvarchar(200)")
                         .HasMaxLength(200);
 
-                    b.Property<DateTime>("Expiration")
-                        .HasColumnName("EXPIRATION")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnName("NAME")
@@ -219,10 +214,11 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
 
-                    b.Property<string>("Token")
-                        .HasColumnName("TOKEN")
-                        .HasColumnType("nvarchar(400)")
-                        .HasMaxLength(400);
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnName("ROLE")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.HasKey("UserId");
 
@@ -260,9 +256,7 @@ namespace CentralDeErros.Infra.Data.Migrations
 
                     b.HasOne("CentralDeErros.Infra.Entidades.Users", "User")
                         .WithMany("ErrorOccurrences")
-                        .HasForeignKey("USER_ID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("USER_ID");
                 });
 #pragma warning restore 612, 618
         }

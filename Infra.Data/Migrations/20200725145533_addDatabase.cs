@@ -55,8 +55,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                     NAME = table.Column<string>(maxLength: 200, nullable: false),
                     EMAIL = table.Column<string>(maxLength: 200, nullable: false),
                     PASSWORD = table.Column<string>(maxLength: 50, nullable: false),
-                    TOKEN = table.Column<string>(maxLength: 400, nullable: true),
-                    EXPIRATION = table.Column<DateTime>(nullable: false)
+                    ROLE = table.Column<string>(maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -104,7 +103,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                     ARCHIVED = table.Column<bool>(nullable: false),
                     DATE_TIME = table.Column<DateTime>(nullable: false),
                     USERID = table.Column<int>(nullable: false),
-                    USER_ID = table.Column<int>(nullable: false),
+                    USER_ID = table.Column<int>(nullable: true),
                     ERRORID = table.Column<int>(nullable: false),
                     ERROR_ID = table.Column<int>(nullable: true),
                     LEVELID = table.Column<int>(nullable: false),
@@ -137,7 +136,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                         column: x => x.USER_ID,
                         principalTable: "USERS",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(

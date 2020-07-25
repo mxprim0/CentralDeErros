@@ -61,5 +61,15 @@ namespace CentralDeErros.Infra.Data.Repository
             return false;
         }
 
+        public Users GetByEmailPassword(Users usuario)
+        {
+            return _context.User.Where(x => x.Email == usuario.Email &&
+                                           x.Password == usuario.Password).FirstOrDefault();
+        }
+        public Users GetByEmail(string email)
+        {
+            return _context.User.Where(x => x.Email == email).FirstOrDefault();
+        }
+
     }
 }

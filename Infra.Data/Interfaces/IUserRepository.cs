@@ -13,5 +13,7 @@ namespace CentralDeErros.Infra.Data.Interfaces
         Users Save(Users item);
         Users Update(Users item);
         bool Delete(int Id);
+        Users GetByEmailPassword(Users usuario);
+        Users GetByEmail(string email);
     }
 }
