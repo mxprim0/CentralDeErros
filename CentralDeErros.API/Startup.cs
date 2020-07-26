@@ -21,6 +21,7 @@ using CentralDeErros.Api.Interfaces;
 using CentralDeErros.Dominio.Services;
 using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Data.Repository;
+using CentralDeErros.API.ConfigStartup;
 
 namespace CentralDeErros.API
 {
@@ -36,6 +37,12 @@ namespace CentralDeErros.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<CentralContext>();
+            services.AddScoped<ILogsService, LogsService>();
+            services.AddScoped<ILogsRepository, LogsRepository>();
+            services.AddControllers();
+            services.AddIdentityConfiguration(Configuration);
+
             services.AddSwaggerGen(c =>
             {
                  c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -73,13 +80,6 @@ namespace CentralDeErros.API
                 }   
                 );
             });
-
-            services.AddDbContext<CentralContext>();
-            services.AddScoped<ILogsService, LogsService>();
-            services.AddScoped<ILogsRepository, LogsRepository>();
-
-
-            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
