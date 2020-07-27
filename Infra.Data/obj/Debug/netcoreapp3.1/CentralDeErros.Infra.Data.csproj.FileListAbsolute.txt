@@ -21,3 +21,4 @@ C:\Users\adria\Source\Repos1\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\C
 C:\Users\adria\Source\Repos1\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.dev.json
 C:\Users\adria\Source\Repos1\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache
 C:\Users\adria\Source\Repos1\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache
+C:\Users\adria\Source\Repos1\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache

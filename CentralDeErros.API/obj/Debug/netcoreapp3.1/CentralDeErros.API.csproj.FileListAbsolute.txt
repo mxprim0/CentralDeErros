@@ -264,7 +264,6 @@ C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcore
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -283,9 +282,6 @@ C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcore
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -447,6 +443,10 @@ C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcore
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CoreCompileInputs.cache
 C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\adria\Source\Repos1\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cache

@@ -8,11 +8,13 @@ using CentralDeErros.Dominio.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CentralDeErros.API.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LogsController : ControllerBase
     {
         private readonly ILogsService logs;

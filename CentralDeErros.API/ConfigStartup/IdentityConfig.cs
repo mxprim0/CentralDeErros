@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Options;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CentralDeErros.API.ConfigStartup
 {
@@ -23,6 +24,16 @@ namespace CentralDeErros.API.ConfigStartup
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddScoped<SigningConfigurations, SigningConfigurations>();
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Admin", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
+                    .RequireRole("Admin")
+                    .RequireAuthenticatedUser().Build());
+
+            });
+
 
             // JWT
             // acesso à seção do arq appsetiings

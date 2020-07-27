@@ -25,10 +25,10 @@ namespace CentralDeErros.API.ConfigStartup
         {
             var info = new OpenApiInfo()
             {
-                Title = "API - Autorização com Identity",
+                Title = "API - Projeto Codenation",
                 Version = "v1",
-                Description = "Esta API é um exemplo de autorização",
-                Contact = new OpenApiContact() { Name = "Ingrid Costa!!!!", Email = "ingrid@mail.com" }
+                Description = "API de Central de Erros da SQUAD 3 da Acelaração C# ClearSale",
+                Contact = new OpenApiContact() { Name = "Squad03", Email = "squad03@gmail.com" }
             };
 
             if (description.IsDeprecated)

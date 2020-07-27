@@ -22,6 +22,8 @@ using CentralDeErros.Dominio.Services;
 using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Data.Repository;
 using CentralDeErros.API.ConfigStartup;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace CentralDeErros.API
 {
@@ -43,16 +45,34 @@ namespace CentralDeErros.API
             services.AddControllers();
             services.AddIdentityConfiguration(Configuration);
 
+            services.AddVersionedApiExplorer(p =>
+            {
+                p.GroupNameFormat = "'v'VVV";
+                p.SubstituteApiVersionInUrl = true;
+            });
+            services.AddApiVersioning(p =>
+            {
+                p.DefaultApiVersion = new ApiVersion(1, 0);
+                p.ReportApiVersions = true;
+                p.AssumeDefaultVersionWhenUnspecified = true;
+            });
+
+            //config swagger
+            services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+
             services.AddSwaggerGen(c =>
             {
-                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
-                    Scheme = "Bearer"
+                    Scheme = "Bearer",
+                    BearerFormat = "JWT",
+                    Description = "Insira o token JWT dessa maneira: Bearer {seu token}",
+
                 });
-                
+
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement()
                 {
                     {
@@ -63,24 +83,18 @@ namespace CentralDeErros.API
                                 Type = ReferenceType.SecurityScheme,
                                 Id = "Bearer"
                             },
-                            Scheme = "oauth2",
+                            Scheme = "apiKey",
                             Name = "Bearer",
                             In = ParameterLocation.Header,
                         },
                         new List<string>()
                     }
                 });
-
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "API - Projeto Final Codenation ",
-                    Version = "v1",
-                    Description = "API de Central de Erros da SQUAD 3 da Acelaração C# ClearSale",
-                    Contact = new OpenApiContact() { Name = "Squad3" }
-                }   
-                );
             });
+
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -96,9 +110,10 @@ namespace CentralDeErros.API
                 c.SwaggerEndpoint("v1/swagger.json", "v1");
             });
 
-
             app.UseRouting();
 
+            //Autorização Bearer
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
