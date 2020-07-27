@@ -19,9 +19,8 @@ namespace CentralDeErros.Infra.Data.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("Data Source=.\\sqlexpress;Initial Catalog=CentralDeErros;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-Q77NTO8\\BD_HOME;Initial Catalog=CentralDeErros;Integrated Security=True");
         }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Users>().HasMany(u => u.ErrorOccurrences).WithOne(u => u.User).IsRequired();

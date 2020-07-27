@@ -10,3 +10,15 @@ C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Do
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
 C:\Users\ednap\Desktop\Desafio Final Codenation\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.deps.json
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csprojAssemblyReference.cache
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfo.cs
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\adria\source\repos1\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb

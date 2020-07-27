@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {}
+    "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+    "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
         "projectName": "CentralDeErros.Teste",
-        "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
-        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\obj\\",
+        "projectPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
