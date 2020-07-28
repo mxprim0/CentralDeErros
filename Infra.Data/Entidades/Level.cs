@@ -10,6 +10,8 @@ namespace CentralDeErros.Infra.Entidades
     [Table ("LEVEL")]
     public class Level
     {
+        public static readonly object Id;
+
         [Column("ID")]
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -20,5 +22,7 @@ namespace CentralDeErros.Infra.Entidades
         [Required]
         public string LevelName { get; set; }
         public ICollection<Error> Errors { get; set; }
+
+        
     }
 }

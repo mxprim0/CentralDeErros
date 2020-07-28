@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CentralDeErros.Infra.Entidades
@@ -31,10 +34,12 @@ namespace CentralDeErros.Infra.Entidades
         [Column("ENVIRONMENT_ID"), Required]
         public EnvironmentLevel Environment { get; set; }
 
+       
         [ForeignKey("LEVEL_ID"), Required]
         public int LevelId { get; set; }
 
         [Column("LEVEL_ID"), Required]
         public Level Level { get; set; }
+     
+        }
     }
-}

@@ -55,5 +55,6 @@ namespace CentralDeErros.Infra.Entidades
 
         [ForeignKey("LEVEL_ID")]
         public Level Level { get; set; }
+        public object Situation { get; internal set; }
     }
 }

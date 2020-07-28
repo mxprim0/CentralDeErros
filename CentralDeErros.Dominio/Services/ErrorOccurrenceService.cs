@@ -1,15 +1,15 @@
 ﻿using CentralDeErros.Infra.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Text;
+using System.Web.Providers.Entities;
 
-namespace CentralDeErros.Api.Interfaces
+namespace CentralDeErros.Dominio.Services
 {
-    public interface IError
-    {
         interface IErrorOccurrenceService
         {
             // cadastra e retorna sucesso ou falha
-            bool RegisterError(Error error, Users user, string origin, string details, DateTime dateTime, string userToken);
+            bool RegisterError(Error error, User user, string origin, string details, DateTime dateTime, string userToken);
 
             // retorna a lista (detalhada) de todos os erros de um tipo de level individualmente
             List<Error> ListOccurencesByLevel(int level);
@@ -18,5 +18,5 @@ namespace CentralDeErros.Api.Interfaces
             List<Error> Consult(int ambiente, int campoOrdenacao, int campoBuscado, string textoBuscado);
 
         }
-    }
+    
 }
