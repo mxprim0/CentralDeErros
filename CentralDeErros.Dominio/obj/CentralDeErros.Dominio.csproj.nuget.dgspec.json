@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {}
+    "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+    "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
         "projectName": "CentralDeErros.Dominio",
-        "projectPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               }
             }
           }
@@ -62,24 +62,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+    "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "projectName": "CentralDeErros.Infra.Data",
-        "projectPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\Source\\Repos1\\CentralDeErros\\Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\Codenation C#\\CentralDeErros\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
