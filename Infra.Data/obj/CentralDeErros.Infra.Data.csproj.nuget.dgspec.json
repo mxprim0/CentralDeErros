@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {}
+    "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+    "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "projectName": "CentralDeErros.Infra.Data",
-        "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

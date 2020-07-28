@@ -9561,11 +9561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+      "projectUniqueName": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
       "projectName": "CentralDeErros.API",
-      "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+      "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
       "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.API\\obj\\",
+      "outputPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9584,14 +9584,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
-              "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
+            "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
             },
-            "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+            "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
             },
-            "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
-              "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
+            "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+              "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
             }
           }
         }

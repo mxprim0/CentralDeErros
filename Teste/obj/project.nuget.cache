@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aZCQGVN6ISxwEZxPK4USpQcwVvHsIh5njGxZ/u7d+pJhmPKSq6X1h/wo7Xh62yrzEtPHyP+IUWX3+G2wWY9++g==",
+  "dgSpecHash": "EMLzhZYEfI+FDYBNydMAaTBjIn0F+JcoX37Od+ztvEd3AJzWzB+aY0Jm+zqGk4rRhDYRNtDrhQrMpl8yfuAHUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+  "projectFilePath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ednap\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\ednap\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

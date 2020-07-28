@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHAGCs9F2/AVnKIJEa+TEOBwxTRrjKtVTzccQwaQrPa5mqR+hm3rV5G914dTYcy3C6RceGf5hkgltm9nCFoBQw==",
+  "dgSpecHash": "c9h7t49Y17j04q96nj26h+AToSDxKDUxyTJ6SGb9TySyl+cjWVE3PEjb8jDe2M2RzdiO7ravpfqo7LR0cxuoGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ednap\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ednap\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

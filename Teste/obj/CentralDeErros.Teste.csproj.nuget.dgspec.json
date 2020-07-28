@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {}
+    "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+    "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
         "projectName": "CentralDeErros.Teste",
-        "projectPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
         "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\Teste\\obj\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

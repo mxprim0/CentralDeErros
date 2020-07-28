@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZob2eliYHGaaYAsuGAUhijvPNOdnjxiq7Zw+D90Ge0jux7PqYUXQYs4YvVIhzrgvJcVqCL6izW81BwFWXTryg==",
+  "dgSpecHash": "PT/+vHE/MFSqPblZwXfglqEfNwYL0sEbi18ZEQ4u/f3RIiNV66h/EjxjaNJ8rpar4fOlGrhcrTeUchWZ9jwf5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ednap\\Desktop\\Desafio Final Codenation\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+  "projectFilePath": "C:\\Users\\ednap\\Desktop\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ednap\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
