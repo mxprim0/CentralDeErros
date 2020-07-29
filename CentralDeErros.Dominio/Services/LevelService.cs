@@ -19,12 +19,11 @@ namespace CentralDeErros.Api.Services
         public Level RegisterOrUpdateLevel(Level level)
         {
             var state = level.LevelId == 0 ? EntityState.Added : EntityState.Modified;
-            _context.Entry(level).State = state;
-            _context.SaveChanges();
+            _context.Equals(level).Equals(state);
             return level;
         }
 
-        public Level ConsultLevelById(int id)
+        /*public Level ConsultLevelById(int id)
         {
             return _context.Levels.Find(id);
         }
@@ -42,7 +41,7 @@ namespace CentralDeErros.Api.Services
         public bool LevelExists(int id)
         {
             return _context.Levels.Any(e => e.LevelId == id);
-        }
+        }*/
     }
 }
 
