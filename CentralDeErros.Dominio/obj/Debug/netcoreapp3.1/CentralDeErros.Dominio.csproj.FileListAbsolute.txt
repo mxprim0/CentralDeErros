@@ -33,3 +33,4 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Domi
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache

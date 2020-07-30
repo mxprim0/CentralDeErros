@@ -278,7 +278,6 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\bin\Debug\net
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csprojAssemblyReference.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.AssemblyInfoInputs.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.AssemblyInfo.cs
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csproj.CoreCompileInputs.cache

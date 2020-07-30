@@ -27,7 +27,6 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\bin\Debu
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.dev.json
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfoInputs.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfo.cs
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache

@@ -1,4 +1,5 @@
 ﻿using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
@@ -9,16 +10,35 @@ using System.Text;
 
 namespace CentralDeErros.Dominio.Services
 {
-    class ErrorService: IError
+    public class ErrorService: IError
     {
-        private ErrorContext _context;
-        private ILevel _levelService;
-      
 
-        public ErrorService(Error context, ILevel levelService)
+
+        public IErrorRepository _context;
+
+        public ErrorService(IErrorRepository context)
         {
-            
-            _levelService = levelService;
+            this._context = context;
+        }
+
+        public List<Error> Consult(int ambiente, int campoOrdenacao, int campoBuscado, string textoBuscado)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Error> ConsultAllErrors()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Error ConsultError(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool ErrorExists(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public Error RegisterOrUpdateError(Error error)

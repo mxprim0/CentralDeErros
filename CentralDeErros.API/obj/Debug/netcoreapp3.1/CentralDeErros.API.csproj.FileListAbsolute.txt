@@ -676,6 +676,3 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.pdb
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.genruntimeconfig.cache
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\EntityFramework.dll
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\System.Web.Providers.dll

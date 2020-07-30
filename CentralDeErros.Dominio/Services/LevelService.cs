@@ -1,47 +1,40 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.EntityFrameworkCore;
+
+
 
 namespace CentralDeErros.Api.Services
 {
-    public class LevelService 
+    public class LevelService : ILevel
     {
-        public ErrorContext _context;
+        public ILevelRepository _context;
 
-        public LevelService(ErrorContext context)
+        public LevelService(ILevelRepository context)
         {
             this._context = context;
         }
 
         public Level RegisterOrUpdateLevel(Level level)
         {
-            var state = level.LevelId == 0 ? EntityState.Added : EntityState.Modified;
-            _context.Equals(level).Equals(state);
-            return level;
-        }
-
-        /*public Level ConsultLevelById(int id)
-        {
-            return _context.Levels.Find(id);
-        }
-
-        public Level ConsultLevelByName(string name)
-        {
-            return _context.Levels.FirstOrDefault(l => l.LevelName == name);
+            return _context.Save(level);
         }
 
         public List<Level> ConsultAllLevels()
         {
-            return _context.Levels.Select(l => l).ToList();
+            return _context.Get().ToList();
+
         }
 
-        public bool LevelExists(int id)
+        public Level ConsultLevelById(int id)
         {
-            return _context.Levels.Any(e => e.LevelId == id);
-        }*/
+            return _context.GetById(id);
+        }
+                   
+       
+        
     }
 }
 

@@ -8,23 +8,10 @@
     ".NETCoreApp,Version=v3.1": {
       "CentralDeErros.Dominio/1.0.0": {
         "dependencies": {
-          "CentralDeErros.Infra.Data": "1.0.0",
-          "Microsoft.AspNet.Providers.Core": "2.0.0"
+          "CentralDeErros.Infra.Data": "1.0.0"
         },
         "runtime": {
           "CentralDeErros.Dominio.dll": {}
-        }
-      },
-      "EntityFramework/6.0.0": {
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.20911.0"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.20911.0"
-          }
         }
       },
       "IdentityModel/4.3.0": {
@@ -85,17 +72,6 @@
           "lib/netstandard2.0/IdentityServer4.Storage.dll": {
             "assemblyVersion": "4.0.4.0",
             "fileVersion": "4.0.4.0"
-          }
-        }
-      },
-      "Microsoft.AspNet.Providers.Core/2.0.0": {
-        "dependencies": {
-          "EntityFramework": "6.0.0"
-        },
-        "runtime": {
-          "lib/net40/System.Web.Providers.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.21122.0"
           }
         }
       },
@@ -1164,13 +1140,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "EntityFramework/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
-      "path": "entityframework/6.0.0",
-      "hashPath": "entityframework.6.0.0.nupkg.sha512"
-    },
     "IdentityModel/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1205,13 +1174,6 @@
       "sha512": "sha512-sirHYj1kQNrSwy4FufUlD2uIFlq9uHzLkEyVp70SXW+7qGv29YVe63uKqZ8WIwEGBMCMDBGA+zvqFNAUSeNnQQ==",
       "path": "identityserver4.storage/4.0.4",
       "hashPath": "identityserver4.storage.4.0.4.nupkg.sha512"
-    },
-    "Microsoft.AspNet.Providers.Core/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JMk31PExMANVDc04aSUyIlcL3pkFVyNg/dDn+ZZzmhZ2CBctI90BWQH1L0zXgD61ZWW5r4ybInV362sRKWIC+A==",
-      "path": "microsoft.aspnet.providers.core/2.0.0",
-      "hashPath": "microsoft.aspnet.providers.core.2.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "type": "package",

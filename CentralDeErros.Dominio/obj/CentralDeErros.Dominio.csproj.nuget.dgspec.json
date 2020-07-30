@@ -44,16 +44,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "DocumentFormat.OpenXml": {
-              "target": "Package",
-              "version": "[2.11.3, )"
-            },
-            "Microsoft.AspNet.Providers.Core": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

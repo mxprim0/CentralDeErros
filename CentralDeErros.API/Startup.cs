@@ -24,6 +24,7 @@ using CentralDeErros.Infra.Data.Repository;
 using CentralDeErros.API.ConfigStartup;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using CentralDeErros.Api.Services;
 
 namespace CentralDeErros.API
 {
@@ -42,6 +43,10 @@ namespace CentralDeErros.API
             services.AddDbContext<CentralContext>();
             services.AddScoped<ILogsService, LogsService>();
             services.AddScoped<ILogsRepository, LogsRepository>();
+            services.AddScoped<IError, ErrorService>();
+            services.AddScoped<ILevel, LevelService>();
+            services.AddScoped<ILevelRepository, LevelRepository>();
+            services.AddScoped<IErrorRepository, ErrorRepository>(); 
             services.AddControllers();
             services.AddIdentityConfiguration(Configuration);
 

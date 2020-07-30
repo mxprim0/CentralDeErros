@@ -20,7 +20,7 @@ namespace CentralDeErros.Infra.Data.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-RA9MQ5T\\BD_HOME;Initial Catalog=CentralDeErros;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=Server=centraldeerros.database.windows.net;Database=CentralDeErros;User Id=ADM;Password=Squad@03;Trusted_Connection=False;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
