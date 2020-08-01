@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CentralDeErros.Api.Interfaces
+namespace CentralDeErros.Dominio.Interfaces
 {
     public interface IError
     {

@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CentralDeErros.API.Dto;
 using Microsoft.AspNetCore.Authorization;
-
+using CentralDeErros.Dominio.Interfaces;
+using CentralDeErros.Infra.Data.Entidades;
 
 namespace CentralDeErros.API.Controllers
 {
@@ -17,7 +18,7 @@ namespace CentralDeErros.API.Controllers
     [ApiController]
     public class LevelController : ControllerBase
     {
-        private readonly ILevel logs;
+        private readonly Dominio.Interfaces.ILevel logs;
 
         public LevelController(ILevel logsService)
         {
@@ -44,14 +45,31 @@ namespace CentralDeErros.API.Controllers
         }
                 
         // GET: api/Level/5
+        //[HttpGet("{id}")]
+        //public string Get(int id)
+        //{
+          //  return "value";
+        //}
+        // GET api//5
         [HttpGet("{id}")]
-        public string Get(int id)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<Level> Getbyid(int id)
         {
-            return "value";
+            var level = logs.ConsultLevelById(id);
+            if (level != null)
+            {
+                return Ok(level);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
-        // POST: api/Level
-        [HttpPost]
+                // POST: api/Level
+                [HttpPost]
         public void Post([FromBody] string value)
         {
         }

@@ -1,4 +1,5 @@
 ﻿using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Dominio.Interfaces;
 using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
 using Microsoft.AspNetCore.Diagnostics;

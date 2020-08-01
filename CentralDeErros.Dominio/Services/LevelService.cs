@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Dominio.Interfaces;
+using CentralDeErros.Infra.Data.Entidades;
 using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
 
 
 
-namespace CentralDeErros.Api.Services
+
+namespace CentralDeErros.Dominio.Services
 {
     public class LevelService : ILevel
     {
@@ -24,8 +27,14 @@ namespace CentralDeErros.Api.Services
 
         public List<Level> ConsultAllLevels()
         {
-            return _context.Get().ToList();
-
+            try
+            {
+                return _context.Get().ToList();
+            }
+            catch
+            {
+                return new List<Level>();
+            }
         }
 
         public Level ConsultLevelById(int id)

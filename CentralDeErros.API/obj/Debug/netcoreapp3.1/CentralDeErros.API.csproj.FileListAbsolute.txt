@@ -666,9 +666,6 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csprojAssemblyReference.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.AssemblyInfoInputs.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.AssemblyInfo.cs
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CoreCompileInputs.cache
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.RazorTargetAssemblyInfo.cache
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CopyComplete
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\staticwebassets\CentralDeErros.API.StaticWebAssets.Manifest.cache
@@ -676,3 +673,7 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.pdb
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.genruntimeconfig.cache
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CoreCompileInputs.cache
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp3.1\Microsoft.Office.Interop.Excel.dll

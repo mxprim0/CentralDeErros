@@ -2,8 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CentralDeErros.Infra.Entidades;
+using CentralDeErros.Api.Interfaces;
+using CentralDeErros.Dominio.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CentralDeErros.API.Dto;
+using Microsoft.AspNetCore.Authorization;
+using CentralDeErros.Dominio.Interfaces;
 
 namespace CentralDeErros.API.Controllers
 {
@@ -11,36 +17,58 @@ namespace CentralDeErros.API.Controllers
     [ApiController]
     public class ErrorController : ControllerBase
     {
-        // GET: api/Error
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IError logs;
+
+        public ErrorController(IError logsService)
         {
-            return new string[] { "value1", "value2" };
+            logs = logsService;
+        }
+       /* // GET: api/ErrorOcurrence
+        [HttpGet("AllError")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        // public ActionResult<List<Error>> Get()
+        //{
+        /*IError<Error> Alllogs = logs.ConsultAllErrors();
+
+        if (Alllogs.Count() > 0)
+        {
+            return Ok(Alllogs);
+        }
+        else
+        {
+            return NoContent();
         }
 
-        // GET: api/Error/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
-        // POST: api/Error
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+    // GET: api/Error/5
+    /*[HttpGet("{id}")]
+    public string Get(int id)
+    {
+        return "value";
+    }
 
-        // PUT: api/Error/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+    // POST: api/Error
+    [HttpPost]
+    public void Post([FromBody] string value)
+    {
+    }
 
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+    // PUT: api/Error/5
+    [HttpPut("{id}")]
+    public void Put(int id, [FromBody] string value)
+    {
+    }
+
+    // DELETE: api/ApiWithActions/5
+    [HttpDelete("{id}")]
+    public void Delete(int id)
+    {
+    }
+}*/
+
     }
 }
+

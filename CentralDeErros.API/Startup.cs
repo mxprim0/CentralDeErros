@@ -24,7 +24,7 @@ using CentralDeErros.Infra.Data.Repository;
 using CentralDeErros.API.ConfigStartup;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using CentralDeErros.Api.Services;
+using CentralDeErros.Dominio.Interfaces;
 
 namespace CentralDeErros.API
 {

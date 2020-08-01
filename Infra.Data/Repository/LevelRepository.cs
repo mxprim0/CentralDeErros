@@ -6,6 +6,7 @@ using CentralDeErros.Infra.Entidades;
 using CentralDeErros.Infra.Data.Context;
 using CentralDeErros.Infra.Data.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using CentralDeErros.Infra.Data.Entidades;
 
 namespace CentralDeErros.Infra.Data.Repository
 {

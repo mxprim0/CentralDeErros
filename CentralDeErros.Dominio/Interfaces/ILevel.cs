@@ -1,7 +1,9 @@
-﻿using CentralDeErros.Infra.Entidades;
+﻿using CentralDeErros.Infra.Data.Entidades;
+using CentralDeErros.Infra.Entidades;
 using System.Collections.Generic;
 
-namespace CentralDeErros.Api.Interfaces
+namespace CentralDeErros.Dominio.Interfaces
+
 {
     public interface ILevel
     {

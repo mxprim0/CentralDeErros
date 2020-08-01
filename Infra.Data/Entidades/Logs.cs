@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CentralDeErros.Infra.Data.Entidades;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

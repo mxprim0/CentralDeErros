@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CentralDeErros.Infra.Data.Entidades;
 using CentralDeErros.Infra.Entidades;
 
 namespace CentralDeErros.Infra.Data.Interfaces
