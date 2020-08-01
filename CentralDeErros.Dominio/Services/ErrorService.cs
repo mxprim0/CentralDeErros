@@ -24,14 +24,9 @@ namespace CentralDeErros.Dominio.Services
 
         public List<Error> ConsultAllErrors()
         {
-            try
-            {
+           
                 return _context.Get().ToList();
-            }
-            catch
-            {
-                return new List<Error>();
-            }
+            
         }
 
         public Error ConsultErrorById(int id)

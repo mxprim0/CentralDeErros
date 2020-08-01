@@ -10,10 +10,10 @@ namespace CentralDeErros.API.Dto
     {
 
         [Required]
-        public int LevelId { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        public string LevelName { get; set; }
+        public string Name { get; set; }
 
         
     }

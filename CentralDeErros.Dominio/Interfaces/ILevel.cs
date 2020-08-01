@@ -11,6 +11,7 @@ namespace CentralDeErros.Dominio.Interfaces
         Level ConsultLevelById(int id);
       
         List<Level> ConsultAllLevels();
-       
+        
+
     }
 }

@@ -7,8 +7,6 @@ using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
 
 
-
-
 namespace CentralDeErros.Dominio.Services
 {
     public class LevelService : ILevel
@@ -27,14 +25,9 @@ namespace CentralDeErros.Dominio.Services
 
         public List<Level> ConsultAllLevels()
         {
-            try
-            {
+            
                 return _context.Get().ToList();
-            }
-            catch
-            {
-                return new List<Level>();
-            }
+            
         }
 
         public Level ConsultLevelById(int id)
