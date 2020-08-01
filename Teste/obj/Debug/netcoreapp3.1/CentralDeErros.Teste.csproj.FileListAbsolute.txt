@@ -285,3 +285,4 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\net
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.pdb
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.genruntimeconfig.cache
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csprojAssemblyReference.cache

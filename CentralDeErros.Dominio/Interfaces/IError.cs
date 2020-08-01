@@ -1,15 +1,16 @@
-﻿using CentralDeErros.Infra.Entidades;
-using System;
+﻿using CentralDeErros.Infra.Data.Entidades;
+using CentralDeErros.Infra.Entidades;
 using System.Collections.Generic;
 
 namespace CentralDeErros.Dominio.Interfaces
+
 {
     public interface IError
     {
         Error RegisterOrUpdateError(Error error);
-        Error ConsultError(int id);
-        List<Error> Consult(int ambiente, int campoOrdenacao, int campoBuscado, string textoBuscado);
+        Error ConsultErrorById(int id);
+
         List<Error> ConsultAllErrors();
-        bool ErrorExists(int id);
+
     }
 }

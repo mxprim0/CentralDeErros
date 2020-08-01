@@ -33,3 +33,4 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debu
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache
+C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache

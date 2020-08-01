@@ -13,5 +13,6 @@ namespace CentralDeErros.Infra.Data.Interfaces
         Level Save(Level item);
         Level Update(Level item);
         bool Delete(int Id);
+        
     }
 }

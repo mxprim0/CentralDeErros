@@ -1,20 +1,15 @@
-﻿using CentralDeErros.Api.Interfaces;
+﻿using System.Collections.Generic;
+using System.Linq;
+using CentralDeErros.Api.Interfaces;
 using CentralDeErros.Dominio.Interfaces;
+using CentralDeErros.Infra.Data.Entidades;
 using CentralDeErros.Infra.Data.Interfaces;
 using CentralDeErros.Infra.Entidades;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace CentralDeErros.Dominio.Services
 {
-    public class ErrorService: IError
+    public class ErrorService : IError
     {
-
-
         public IErrorRepository _context;
 
         public ErrorService(IErrorRepository context)
@@ -22,40 +17,31 @@ namespace CentralDeErros.Dominio.Services
             this._context = context;
         }
 
-        public List<Error> Consult(int ambiente, int campoOrdenacao, int campoBuscado, string textoBuscado)
+        public Error RegisterOrUpdateLevel(Error error)
         {
-            throw new NotImplementedException();
+            return _context.Save(error);
         }
 
         public List<Error> ConsultAllErrors()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _context.Get().ToList();
+            }
+            catch
+            {
+                return new List<Error>();
+            }
         }
 
-        public Error ConsultError(int id)
+        public Error ConsultErrorById(int id)
         {
-            throw new NotImplementedException();
+            return _context.GetById(id);
         }
 
-        public bool ErrorExists(int id)
+        Error IError.RegisterOrUpdateError(Error error)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
-
-        public Error RegisterOrUpdateError(Error error)
-        {           
-            return error;
-        }
-                
-        
-        public class Occurrences
-        {
-            public int ErrorId { get; set; }
-            public int Quantity { get; set; }
-        }
-
-        
-
-
     }
 }

@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using CentralDeErros.API.Dto;
 using Microsoft.AspNetCore.Authorization;
 using CentralDeErros.Dominio.Interfaces;
+using CentralDeErros.Infra.Data.Entidades;
 
 namespace CentralDeErros.API.Controllers
 {
@@ -17,58 +18,72 @@ namespace CentralDeErros.API.Controllers
     [ApiController]
     public class ErrorController : ControllerBase
     {
-        private readonly IError logs;
+        public readonly Dominio.Interfaces.IError logs;
 
         public ErrorController(IError logsService)
         {
             logs = logsService;
         }
-       /* // GET: api/ErrorOcurrence
+        // GET: api/ErrorOcurrence
         [HttpGet("AllError")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<List<Error>> Get()
+        {
+          IList<Error> Alllogs = logs.ConsultAllErrors();
 
-        // public ActionResult<List<Error>> Get()
+            if (Alllogs.Count() > 0)
+            {
+                return Ok(Alllogs);
+            }
+            else
+            {
+                return NoContent();
+            }
+
+        }
+
+        // GET: api/Level/5
+        //[HttpGet("{id}")]
+        //public string Get(int id)
         //{
-        /*IError<Error> Alllogs = logs.ConsultAllErrors();
-
-        if (Alllogs.Count() > 0)
+        //  return "value";
+        //}
+        // GET api//5
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<Error> Getbyid(int id)
         {
-            return Ok(Alllogs);
+            var error = logs.ConsultErrorById(id);
+            if (error!= null)
+            {
+                return Ok(error);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
-        else
+
+        // POST: api/Level
+        [HttpPost]
+        public void Post([FromBody] string value)
         {
-            return NoContent();
         }
 
+        // PUT: api/Level/5
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+        }
 
-    // GET: api/Error/5
-    /*[HttpGet("{id}")]
-    public string Get(int id)
-    {
-        return "value";
-    }
-
-    // POST: api/Error
-    [HttpPost]
-    public void Post([FromBody] string value)
-    {
-    }
-
-    // PUT: api/Error/5
-    [HttpPut("{id}")]
-    public void Put(int id, [FromBody] string value)
-    {
-    }
-
-    // DELETE: api/ApiWithActions/5
-    [HttpDelete("{id}")]
-    public void Delete(int id)
-    {
-    }
-}*/
-
+        // DELETE: api/ApiWithActions/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+        }
     }
 }
-
