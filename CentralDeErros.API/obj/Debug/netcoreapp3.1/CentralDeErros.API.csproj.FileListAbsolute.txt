@@ -896,9 +896,6 @@ C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\bin\Debug\netcoreapp
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csprojAssemblyReference.cache
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.AssemblyInfoInputs.cache
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.AssemblyInfo.cs
-C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CoreCompileInputs.cache
-C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.RazorTargetAssemblyInfo.cache
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\CentralDeErros.API.csproj.CopyComplete
 C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.API\obj\Debug\netcoreapp3.1\staticwebassets\CentralDeErros.API.StaticWebAssets.Manifest.cache

@@ -377,7 +377,6 @@ C:\Users\Danielly\Desktop\CentralDeErros\Teste\bin\Debug\netcoreapp3.1\zh-Hant\M
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csprojAssemblyReference.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.AssemblyInfoInputs.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.AssemblyInfo.cs
-C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csproj.CoreCompileInputs.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csproj.CopyComplete
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.dll
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.pdb

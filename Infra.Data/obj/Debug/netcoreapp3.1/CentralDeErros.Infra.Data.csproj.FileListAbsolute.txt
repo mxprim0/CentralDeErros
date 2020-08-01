@@ -42,7 +42,6 @@ C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\Cent
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfoInputs.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfo.cs
-C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache
