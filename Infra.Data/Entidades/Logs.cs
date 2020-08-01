@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CentralDeErros.Infra.Data.Entidades;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -55,5 +56,6 @@ namespace CentralDeErros.Infra.Entidades
 
         [ForeignKey("LEVEL_ID")]
         public Level Level { get; set; }
+        public object Situation { get; internal set; }
     }
 }
