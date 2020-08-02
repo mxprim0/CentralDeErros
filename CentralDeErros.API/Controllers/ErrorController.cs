@@ -11,19 +11,23 @@ using CentralDeErros.API.Dto;
 using Microsoft.AspNetCore.Authorization;
 using CentralDeErros.Dominio.Interfaces;
 using CentralDeErros.Infra.Data.Entidades;
+using AutoMapper;
 
 namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ErrorController : ControllerBase
     {
         public readonly Dominio.Interfaces.IError logs;
+        private readonly IMapper _mapper;
 
-        public ErrorController(IError logsService)
+        public ErrorController(IError logsService, IMapper mapper)
         {
             logs = logsService;
+            _mapper = mapper;
+
         }
         // GET: api/ErrorOcurrence
         [HttpGet("AllError")]
@@ -62,6 +66,26 @@ namespace CentralDeErros.API.Controllers
             if (error!= null)
             {
                 return Ok(error);
+            }
+            else
+            {
+                return NoContent();
+            }
+        }
+
+
+        [HttpPost]
+        public ActionResult<Error> PostEnvironment([FromBody] ErrorDTO value)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            Error valor = _mapper.Map<Error>(value);
+            var level = logs.RegisterOrUpdateError(valor);
+
+            if (level != null)
+            {
+                return Ok(level);
             }
             else
             {

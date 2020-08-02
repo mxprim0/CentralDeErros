@@ -8,7 +8,6 @@ namespace CentralDeErros.API.Dto
 {
     public class ErrorDTO
     {
-        public int ErrorId { get; set; }
 
         [Required]
         public int EnvironmentId { get; set; }

@@ -9,11 +9,9 @@ namespace CentralDeErros.API.Dto
     public class LevelDTO
     {
 
+       
         [Required]
-        public int Id { get; set; }
-
-        [Required]
-        public string Name { get; set; }
+        public string LevelName { get; set; }
 
         
     }
