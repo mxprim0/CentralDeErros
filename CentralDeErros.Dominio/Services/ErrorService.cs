@@ -36,7 +36,7 @@ namespace CentralDeErros.Dominio.Services
 
         Error IError.RegisterOrUpdateError(Error error)
         {
-            throw new System.NotImplementedException();
+            return _context.Save(error);
         }
     }
 }

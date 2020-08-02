@@ -29,11 +29,12 @@ namespace CentralDeErros.Dominio.Services
             return _logs.Delete(logId);
         }
 
-        public Logs getById(int id) {
+        public LogsResponseDTO getById(int id) {
+
             return _logs.GetById(id);
         }
 
-        public List<Logs> searchLogs(int type, int level, string title, string description )
+        public List<LogsResponseDTO> searchLogs(int type, int level, string title, string description )
         {
             if (type == null)
             {
@@ -54,21 +55,21 @@ namespace CentralDeErros.Dominio.Services
 
 
         }
-        public List<Logs> getLogByLevel(int level) {
+        public List<LogsResponseDTO> getLogByLevel(int level) {
             return _logs.GetByLevel(level);
         }
 
-        public List<Logs> getLogByDescription(string description)
+        public List<LogsResponseDTO> getLogByDescription(string description)
         {
             return _logs.GetByDescription(description);
         }
 
-        public List<Logs> getLogByTitle(string title)
+        public List<LogsResponseDTO> getLogByTitle(string title)
         {
             return _logs.GetByDescription(title);
         }
 
-        public List<Logs> getLogsByEnvironment(int env)
+        public List<LogsResponseDTO> getLogsByEnvironment(int env)
         {
             return _logs.GetByEnvironment(env).ToList();
         }
@@ -83,7 +84,7 @@ namespace CentralDeErros.Dominio.Services
 
 
 
-        public List<Logs> AllLogs()
+        public List<LogsResponseDTO> AllLogs()
         {
             try
             {
@@ -91,11 +92,9 @@ namespace CentralDeErros.Dominio.Services
             }
             catch
             {
-                return new List<Logs>();
+                return new List<LogsResponseDTO>();
             }
         }
-        //List<Logs> Consult(int ambiente, int campoOrdenacao, int campoBuscado, string textoBuscado);
-        // Logs getDetails(Logs errorOccurrence);
-        //Logs deleteLog(Logs errorOccurrence);
+       
     }
 }

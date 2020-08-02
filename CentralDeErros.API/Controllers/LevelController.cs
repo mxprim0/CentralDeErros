@@ -12,19 +12,25 @@ using Microsoft.AspNetCore.Authorization;
 using CentralDeErros.Dominio.Interfaces;
 using CentralDeErros.Infra.Data.Entidades;
 using CentralDeErros.API.Dto;
+using AutoMapper;
 
 namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LevelController : ControllerBase
     {
         private readonly Dominio.Interfaces.ILevel logs;
+        private readonly IMapper _mapper;
 
-        public LevelController(ILevel logsService)
+        public LevelController(ILevel logsService, IMapper mapper)
         {
             logs = logsService;
+            _mapper = mapper;
+
         }
+
         // GET: api/ErrorOcurrence
         [HttpGet("AllLevel")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -68,5 +74,26 @@ namespace CentralDeErros.API.Controllers
                 return NoContent();
             }
         }
+
+        // POST: api/Level
+        [HttpPost]
+        public ActionResult<Level> PostEnvironment([FromBody] LevelDTO value)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            Level valor = _mapper.Map<Level>(value);
+            var level = logs.RegisterOrUpdateLevel(valor);
+
+            if (level != null)
+            {
+                return Ok(level);
+            }
+            else
+            {
+                return NoContent();
+            }
+        }
+
     }
 }

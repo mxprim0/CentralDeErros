@@ -58,3 +58,15 @@ C:\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.c
 C:\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
 C:\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csprojAssemblyReference.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.AssemblyInfo.cs
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.deps.json
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.json
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.runtimeconfig.dev.json
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache

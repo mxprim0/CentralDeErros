@@ -58,3 +58,15 @@ C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.
 C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
 C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
 C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.deps.json
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csprojAssemblyReference.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfoInputs.cache
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfo.cs
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\ednap\Desktop\dto logs\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
