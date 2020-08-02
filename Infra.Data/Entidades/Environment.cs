@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace CentralDeErros.Infra.Entidades
 {
     [Table("ENVIRONMENT")]
-    public class EnvironmentLevel
+    public class Environment
     {
         [Column("ID")]
         [Key]

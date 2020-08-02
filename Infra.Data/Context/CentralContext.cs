@@ -15,7 +15,7 @@ namespace CentralDeErros.Infra.Data.Context
         public DbSet<Logs> Logs { get; set; }
         public DbSet<Level> Levels { get; set; }
         public DbSet<Situation> Situations { get; set; }
-        public DbSet<EnvironmentLevel> EnvironmentLevels { get; set; }
+        public DbSet<Infra.Entidades.Environment> Environments { get; set; }
         
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -28,7 +28,7 @@ namespace CentralDeErros.Infra.Data.Context
             modelBuilder.Entity<Users>().HasMany(u => u.ErrorOccurrences).WithOne(u => u.User).IsRequired();
             modelBuilder.Entity<Situation>().HasMany(s => s.ErrorOccurrences).WithOne(s => (Situation)s.Situation).IsRequired();
             modelBuilder.Entity<Level>().HasMany(l => l.Errors).WithOne(l => l.Level).IsRequired();
-            modelBuilder.Entity<EnvironmentLevel>().HasMany(e => e.Errors).WithOne(e => e.Environment).IsRequired();
+            modelBuilder.Entity<Infra.Entidades.Environment>().HasMany(e => e.Errors).WithOne(e => e.Environment).IsRequired();
             modelBuilder.Entity<Error>().HasKey(e => e.ErrorId);
             modelBuilder.Entity<Logs>().HasKey(e => e.ErrorOccurrenceId);
         }

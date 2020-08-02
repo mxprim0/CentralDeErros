@@ -19,7 +19,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CentralDeErros.Infra.Entidades.EnvironmentLevel", b =>
+            modelBuilder.Entity("CentralDeErros.Infra.Entidades.Environment", b =>
             {
                 b.Property<int>("EnvironmentId")
                     .ValueGeneratedOnAdd()
@@ -229,7 +229,7 @@ namespace CentralDeErros.Infra.Data.Migrations
 
             modelBuilder.Entity("CentralDeErros.Infra.Entidades.Error", b =>
             {
-                b.HasOne("CentralDeErros.Infra.Entidades.EnvironmentLevel", "Environment")
+                b.HasOne("CentralDeErros.Infra.Entidades.Environment", "Environment")
                     .WithMany("Errors")
                     .HasForeignKey("EnvironmentId")
                     .OnDelete(DeleteBehavior.Cascade)

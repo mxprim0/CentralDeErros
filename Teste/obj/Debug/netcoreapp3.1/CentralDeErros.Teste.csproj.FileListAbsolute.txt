@@ -381,3 +381,5 @@ C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDe
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.dll
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.pdb
 C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.genruntimeconfig.cache
+C:\Users\Danielly\Desktop\CentralDeErros\Teste\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Danielly\Desktop\CentralDeErros\Teste\obj\Debug\netcoreapp3.1\CentralDeErros.Teste.csproj.CoreCompileInputs.cache

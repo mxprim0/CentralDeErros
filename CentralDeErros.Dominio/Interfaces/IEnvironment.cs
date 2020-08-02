@@ -5,9 +5,9 @@ namespace CentralDeErros.Api.Interfaces
 {
     public interface IEnvironment
     {
-        EnvironmentLevel RegisterOrUpdateEnvironment (EnvironmentLevel environment);
-        EnvironmentLevel ConsultEnvironment(int id);
-        List<EnvironmentLevel> ConsultAllEnvironments();
+        Environment RegisterOrUpdateEnvironment (Environment environment);
+        Environment ConsultEnvironment(int id);
+        List<Environment> ConsultAllEnvironments();
         bool EnvironmentExists(int id);
     }
 }

@@ -45,3 +45,4 @@ C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\Cent
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
 C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.genruntimeconfig.cache
+C:\Users\Danielly\Desktop\CentralDeErros\Infra.Data\obj\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.csproj.CoreCompileInputs.cache
