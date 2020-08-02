@@ -68,35 +68,5 @@ namespace CentralDeErros.API.Controllers
                 return NoContent();
             }
         }
-
-                // POST: api/Level
-                [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public void Post([FromBody] string value)
-        {
-            
-        }
-
-        // PUT: api/Level/5
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-            
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public void Delete(int id)
-        {
-            
-        }
     }
 }

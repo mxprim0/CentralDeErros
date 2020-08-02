@@ -1,13 +1,12 @@
 ﻿using CentralDeErros.Infra.Entidades;
 using System.Collections.Generic;
 
-namespace CentralDeErros.Api.Interfaces
+namespace CentralDeErros.Dominio.Interfaces
 {
     public interface IEnvironment
     {
         Environment RegisterOrUpdateEnvironment (Environment environment);
         Environment ConsultEnvironment(int id);
         List<Environment> ConsultAllEnvironments();
-        bool EnvironmentExists(int id);
     }
 }

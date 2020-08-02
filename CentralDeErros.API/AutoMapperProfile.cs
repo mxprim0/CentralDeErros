@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using AutoMapper;
 using CentralDeErros.API.Dto;
 using CentralDeErros.API.Models;
+using CentralDeErros.Infra.Data.Entidades;
 using CentralDeErros.Infra.Entidades;
+using Environment = CentralDeErros.Infra.Entidades.Environment;
 
 namespace CentralDeErros.API
 {
@@ -16,10 +18,7 @@ namespace CentralDeErros.API
             CreateMap<Environment, EnvironmentDTO>().ReverseMap();
             CreateMap<Error, ErrorDTO>().ReverseMap();
             CreateMap<Level, LevelDTO>().ReverseMap();
-            CreateMap<Logs, LogsDTO>().ReverseMap();
-            CreateMap<Situation, SituatonDTO>().ReverseMap();
-            CreateMap<Users, UsersDTO>().ReverseMap();
-
+            //CreateMap<Logs, LogsDTO>().ReverseMap();
         }
     }
 }

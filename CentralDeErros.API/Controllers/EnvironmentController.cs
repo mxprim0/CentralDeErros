@@ -8,12 +8,14 @@ using CentralDeErros.API.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CentralDeErros.Infra.Entidades;
+using CentralDeErros.Dominio.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class EnvironmentController : ControllerBase
     {
         private readonly IEnvironment _service;
@@ -29,8 +31,8 @@ namespace CentralDeErros.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<EnvironmentDTO>> GetEnvironments()
         {
-            var environments = _service.ConsultAllEnvironments();
-            if (environments == null)
+            IList<Infra.Entidades.Environment> environments = _service.ConsultAllEnvironments();
+            if (environments.Count() < 0)
             {
                 return NotFound();
             }
@@ -64,45 +66,5 @@ namespace CentralDeErros.API.Controllers
             return Ok(_mapper.Map<EnvironmentDTO>(_service.RegisterOrUpdateEnvironment(_mapper.Map<Infra.Entidades.Environment>(value))));
         }
 
-        // PUT: api/Environment/5
-        [HttpPut("{id}")]
-        public ActionResult<EnvironmentDTO> PutEnvironment(int id, Infra.Entidades.Environment environment)
-        {
-            if (id != environment.EnvironmentId)
-            {
-                return BadRequest();
-            }
-
-            try
-            {
-                return Ok(_mapper.Map<EnvironmentDTO>(_service.RegisterOrUpdateEnvironment(environment)));
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-
-                if (!_service.EnvironmentExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
-        {
-            var envFind = _service.FindById(id);
-
-            if (envFind is null)
-                return NoContent;
-
-            _service.Remove(id);
-
-            return Ok()
-        }
     }
 }

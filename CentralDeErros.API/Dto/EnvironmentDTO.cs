@@ -7,7 +7,6 @@ namespace CentralDeErros.API.Dto
 {
     public class EnvironmentDTO
     {
-        public int Environment_Id { get; set; }
         public string EnvironmentName { get; set; }
     }
 }

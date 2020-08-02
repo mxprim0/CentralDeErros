@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {}
+    "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+    "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
         "projectName": "CentralDeErros.Dominio",
-        "projectPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Danielly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danielly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               }
             }
           }
@@ -68,24 +68,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+    "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "projectName": "CentralDeErros.Infra.Data",
-        "projectPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Danielly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danielly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
