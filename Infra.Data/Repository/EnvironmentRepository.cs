@@ -9,24 +9,24 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CentralDeErros.Infra.Data.Repository
 {
-    public class EnvironmentLevelRepository:IEnvironmentLevelRepository
+    public class EnvironmentRepository:IEnvironmentRepository
     {
         private readonly CentralContext _context;
-        public EnvironmentLevelRepository(CentralContext context)
+        public EnvironmentRepository(CentralContext context)
         {
             _context = context;
         }
 
-        public IEnumerable<EnvironmentLevel> Get()
+        public IEnumerable<Infra.Entidades.Environment> Get()
         {
-            return _context.EnvironmentLevels;
+            return _context.Environments;
         }
 
-        public EnvironmentLevel GetById(int Id)
+        public Infra.Entidades.Environment GetById(int Id)
         {
-            return _context.EnvironmentLevels.Where(x => x.EnvironmentId == Id).FirstOrDefault();
+            return _context.Environments.Where(x => x.EnvironmentId == Id).FirstOrDefault();
         }
-        public EnvironmentLevel Save(EnvironmentLevel item)
+        public Infra.Entidades.Environment Save(Infra.Entidades.Environment item)
         {
             var state = item.EnvironmentId == 0 ? EntityState.Added : EntityState.Modified;
             _context.Entry(item).State = state;
@@ -34,9 +34,9 @@ namespace CentralDeErros.Infra.Data.Repository
             _context.SaveChanges();
             return item;
         }
-        public EnvironmentLevel Update(EnvironmentLevel item)
+        public Infra.Entidades.Environment Update(Infra.Entidades.Environment item)
         {
-            var _item = _context.EnvironmentLevels.Where(x => x.EnvironmentId == item.EnvironmentId).FirstOrDefault();
+            var _item = _context.Environments.Where(x => x.EnvironmentId == item.EnvironmentId).FirstOrDefault();
 
             if (_item != null)
             {
@@ -50,7 +50,7 @@ namespace CentralDeErros.Infra.Data.Repository
         }
         public bool Delete(int Id)
         {
-            var _environment = _context.EnvironmentLevels.Where(x => x.EnvironmentId == Id).FirstOrDefault();
+            var _environment = _context.Environments.Where(x => x.EnvironmentId == Id).FirstOrDefault();
 
             if (_environment != null)
             {

@@ -87,14 +87,6 @@ namespace CentralDeErros.API.Controllers
             return NotFound(loginUser);
         }
 
-        [HttpPost("logout")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return Ok();
-        }
-
         // requisição de redefinição de senha
         [HttpPost("forgotPassword")]
         [AllowAnonymous]
