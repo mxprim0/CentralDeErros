@@ -18,24 +18,94 @@ namespace CentralDeErros.Infra.Data.Repository
             _context = context;
         }
 
-        public IEnumerable<Logs> Get()
+        public IEnumerable<LogsResponseDTO> Get()
         {
-            return _context.Logs.Where(a=>!a.Archived);
+            var log = (from l in _context.Logs
+                       join e in _context.Errors
+                       on l.ErrorId equals e.ErrorId
+                       join f in _context.Levels
+                       on e.LevelId equals f.LevelId
+                       where l.Archived == false
+                       select new LogsResponseDTO
+                       {
+                           Archived = l.Archived,
+                           Description = l.Description,
+                           Events = l.Events,
+                           LevelName = f.LevelName,
+                           CreatedAt = l.CreatedAt,
+                           Title = e.Title,
+                           UserName = l.UserName
+                       }).ToList();
+
+            return log;
         }
 
-        public List<Logs> GetByLevel(int Level)
+        public List<LogsResponseDTO> GetByLevel(int Level)
         {
-            return _context.Logs.Where(a => !a.Archived).Where(x => x.LevelId == Level).ToList();
+            var log = (       from l in _context.Logs
+                              join e in _context.Errors
+                              on l.ErrorId equals e.ErrorId
+                              join f in _context.Levels
+                              on e.LevelId equals f.LevelId
+                              where e.LevelId == Level
+                              select new LogsResponseDTO
+                              {
+                                  Archived = l.Archived,
+                                  Description = l.Description,
+                                  Events = l.Events,
+                                  LevelName = f.LevelName,
+                                  CreatedAt = l.CreatedAt,
+                                  Title = e.Title,
+                                  UserName = l.UserName
+                              }).ToList();
+
+            return log;
         }
 
-        public List<Logs> GetByDescription(string description)
+        public List<LogsResponseDTO> GetByDescription(string description)
         {
-            return _context.Logs.Where(a => !a.Archived).Where(a => a.Description.Contains(description)).ToList();
+            var log = (
+                           from l in _context.Logs
+                           join e in _context.Errors
+                           on l.ErrorId equals e.ErrorId
+                           join f in _context.Levels
+                           on e.LevelId equals f.LevelId
+                           where l.Description.Contains(description)
+                           select new LogsResponseDTO
+                           {
+                               Archived = l.Archived,
+                               Description = l.Description,
+                               Events = l.Events,
+                               LevelName = f.LevelName,
+                               CreatedAt = l.CreatedAt,
+                               Title = e.Title,
+                               UserName = l.UserName
+                           }).ToList();
+
+            return log;
         }
 
-        public List<Logs> GetByTitle(string title)
+        public List<LogsResponseDTO> GetByTitle(string title)
         {
-            return _context.Logs.Where(a => !a.Archived).Where(a => a.Title.Contains(title)).ToList();
+              var log = (
+                        from l in _context.Logs
+                        join e in _context.Errors
+                        on l.ErrorId equals e.ErrorId
+                        join f in _context.Levels
+                        on e.LevelId equals f.LevelId
+                        where l.Title.Contains(title)
+                        select new LogsResponseDTO
+                        {
+                            Archived = l.Archived,
+                            Description = l.Description,
+                            Events = l.Events,
+                            LevelName = f.LevelName,
+                            CreatedAt = l.CreatedAt,
+                            Title = e.Title,
+                            UserName = l.UserName
+                        }).ToList();
+
+            return log;
         }
 
         public Logs ArchiveLog(int logId)
@@ -55,14 +125,59 @@ namespace CentralDeErros.Infra.Data.Repository
         }
 
 
-        public List<Logs> GetByEnvironment(int env)
+        public List<LogsResponseDTO> GetByEnvironment(int env)
         {
-            return _context.Logs.Where(x => x.Error.EnvironmentId == env).ToList();
+         
+            var log = (
+                        from l in _context.Logs
+                        join e in _context.Errors
+                        on l.ErrorId equals e.ErrorId
+                        join f in _context.Levels
+                        on e.LevelId equals f.LevelId
+                        where e.EnvironmentId == env
+                        select new LogsResponseDTO
+                        {
+                            Archived = l.Archived,
+                            Description = l.Description,
+                            Events = l.Events,
+                            LevelName = f.LevelName,
+                            CreatedAt = l.CreatedAt,
+                            Title = e.Title,
+                            UserName = l.UserName
+                        }).ToList();
+
+            return log;
         }
 
-        public Logs GetById(int Id)
+        public LogsResponseDTO GetById(int Id)
         {
-            return _context.Logs.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
+            Logs response= _context.Logs.Where(x => x.ErrorOccurrenceId == Id).FirstOrDefault();
+
+            if (response == null)
+            {
+                return null;
+            }
+
+            var log = (
+                        from l in _context.Logs
+                        join e in _context.Errors
+                        on l.ErrorId equals e.ErrorId
+                        join f in _context.Levels
+                        on e.LevelId equals f.LevelId
+                        where l.ErrorOccurrenceId==Id
+                        select new LogsResponseDTO
+                        {
+                            Archived = l.Archived,
+                            Description=l.Description,
+                            Events=l.Events,
+                            LevelName=f.LevelName,
+                            CreatedAt=l.CreatedAt,
+                            Title=e.Title, 
+                            UserName=l.UserName
+                        }).FirstOrDefault();
+
+            return log;
+
         }
         public Logs Save(Logs item)
         {

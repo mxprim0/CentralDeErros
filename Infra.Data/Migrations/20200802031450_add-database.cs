@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CentralDeErros.Infra.Data.Migrations
 {
-    public partial class addDatabase : Migration
+    public partial class adddatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -103,12 +103,13 @@ namespace CentralDeErros.Infra.Data.Migrations
                     EVENTS = table.Column<string>(maxLength: 2000, nullable: false),
                     ARCHIVED = table.Column<bool>(nullable: false),
                     DATE_TIME = table.Column<DateTime>(nullable: false),
-                    USERID = table.Column<int>(nullable: false),
-                    USER_ID = table.Column<int>(nullable: false),
+                    USERDATA = table.Column<string>(maxLength: 2000, nullable: false),
                     ERRORID = table.Column<int>(nullable: false),
                     ERROR_ID = table.Column<int>(nullable: true),
                     LEVELID = table.Column<int>(nullable: false),
                     LEVEL_ID = table.Column<int>(nullable: true),
+                    USERID = table.Column<int>(nullable: false),
+                    USER_ID = table.Column<int>(nullable: true),
                     SituationId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
@@ -137,7 +138,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                         column: x => x.USER_ID,
                         principalTable: "USERS",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(

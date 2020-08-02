@@ -25,8 +25,8 @@ namespace CentralDeErros.Infra.Data.Context
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Users>().HasMany(u => u.ErrorOccurrences).WithOne(u => u.User).IsRequired();
-            modelBuilder.Entity<Situation>().HasMany(s => s.ErrorOccurrences).WithOne(s => (Situation)s.Situation).IsRequired();
+            //modelBuilder.Entity<Users>().HasMany(u => u.ErrorOccurrences).WithOne(u => u.User).IsRequired();
+            //modelBuilder.Entity<Situation>().HasMany(s => s.ErrorOccurrences).WithOne(s => (Situation)s.Situation).IsRequired();
             modelBuilder.Entity<Level>().HasMany(l => l.Errors).WithOne(l => l.Level).IsRequired();
             modelBuilder.Entity<Infra.Entidades.Environment>().HasMany(e => e.Errors).WithOne(e => e.Environment).IsRequired();
             modelBuilder.Entity<Error>().HasKey(e => e.ErrorId);

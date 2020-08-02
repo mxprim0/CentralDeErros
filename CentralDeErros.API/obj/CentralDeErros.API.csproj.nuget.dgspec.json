@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {}
+    "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {}
   },
   "projects": {
-    "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {
+    "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
         "projectName": "CentralDeErros.API",
-        "projectPath": "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\CentralDeErros\\CentralDeErros.API\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
-                "projectPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
+              "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+                "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
               },
-              "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               },
-              "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
-                "projectPath": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
+              "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+                "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
               }
             }
           }
@@ -140,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+    "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
         "projectName": "CentralDeErros.Dominio",
-        "projectPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,8 +170,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               }
             }
           }
@@ -208,24 +208,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+    "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "projectName": "CentralDeErros.Infra.Data",
-        "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\CentralDeErros\\Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -306,24 +306,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+    "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "projectUniqueName": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
         "projectName": "CentralDeErros.Teste",
-        "projectPath": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
-        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\CentralDeErros\\Teste\\obj\\",
+        "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -383,7 +383,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
