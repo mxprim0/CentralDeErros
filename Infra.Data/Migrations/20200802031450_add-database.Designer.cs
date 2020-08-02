@@ -10,16 +10,35 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CentralDeErros.Infra.Data.Migrations
 {
     [DbContext(typeof(CentralContext))]
-    [Migration("20200724012728_addDatabase")]
-    partial class addDatabase
+    [Migration("20200802031450_add-database")]
+    partial class adddatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.4")
+                .HasAnnotation("ProductVersion", "3.1.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("CentralDeErros.Infra.Data.Entidades.Level", b =>
+                {
+                    b.Property<int>("LevelId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("ID")
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("LevelName")
+                        .IsRequired()
+                        .HasColumnName("LEVEL")
+                        .HasColumnType("nvarchar(30)")
+                        .HasMaxLength(30);
+
+                    b.HasKey("LevelId");
+
+                    b.ToTable("LEVEL");
+                });
 
             modelBuilder.Entity("CentralDeErros.Infra.Entidades.Environment", b =>
                 {
@@ -79,25 +98,6 @@ namespace CentralDeErros.Infra.Data.Migrations
                     b.ToTable("ERROR");
                 });
 
-            modelBuilder.Entity("CentralDeErros.Infra.Entidades.Level", b =>
-                {
-                    b.Property<int>("LevelId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("ID")
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("LevelName")
-                        .IsRequired()
-                        .HasColumnName("LEVEL")
-                        .HasColumnType("nvarchar(30)")
-                        .HasMaxLength(30);
-
-                    b.HasKey("LevelId");
-
-                    b.ToTable("LEVEL");
-                });
-
             modelBuilder.Entity("CentralDeErros.Infra.Entidades.Logs", b =>
                 {
                     b.Property<int>("ErrorOccurrenceId")
@@ -150,12 +150,17 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .HasMaxLength(2000);
 
                     b.Property<int?>("USER_ID")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnName("USERID")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnName("USERDATA")
+                        .HasColumnType("nvarchar(2000)")
+                        .HasMaxLength(2000);
 
                     b.HasKey("ErrorOccurrenceId");
 
@@ -237,7 +242,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CentralDeErros.Infra.Entidades.Level", "Level")
+                    b.HasOne("CentralDeErros.Infra.Data.Entidades.Level", "Level")
                         .WithMany("Errors")
                         .HasForeignKey("LevelId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -250,7 +255,7 @@ namespace CentralDeErros.Infra.Data.Migrations
                         .WithMany()
                         .HasForeignKey("ERROR_ID");
 
-                    b.HasOne("CentralDeErros.Infra.Entidades.Level", "Level")
+                    b.HasOne("CentralDeErros.Infra.Data.Entidades.Level", "Level")
                         .WithMany()
                         .HasForeignKey("LEVEL_ID");
 
@@ -260,9 +265,7 @@ namespace CentralDeErros.Infra.Data.Migrations
 
                     b.HasOne("CentralDeErros.Infra.Entidades.Users", "User")
                         .WithMany("ErrorOccurrences")
-                        .HasForeignKey("USER_ID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("USER_ID");
                 });
 #pragma warning restore 612, 618
         }

@@ -37,12 +37,10 @@ namespace CentralDeErros.Infra.Entidades
         [Required]
         public DateTime CreatedAt { get; set; }
 
-        [Column("USERID"), Required]
-        public int UserId { get; set; }
-
-        [ForeignKey("USER_ID")]
-
-        public Users User { get; set; }
+        [Column("USERDATA")]
+        [StringLength(2000)]
+        [Required]
+        public string UserName { get; set; }
 
         [Column("ERRORID"), Required]
 
@@ -56,6 +54,14 @@ namespace CentralDeErros.Infra.Entidades
 
         [ForeignKey("LEVEL_ID")]
         public Level Level { get; set; }
-        public object Situation { get; internal set; }
+
+
+        [Column("USERID")]
+        public int UserId { get; set; }
+
+        [ForeignKey("USER_ID")]
+
+        public Users User { get; set; }
+
     }
 }

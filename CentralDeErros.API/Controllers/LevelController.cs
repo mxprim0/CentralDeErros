@@ -17,6 +17,7 @@ namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LevelController : ControllerBase
     {
         private readonly Dominio.Interfaces.ILevel logs;

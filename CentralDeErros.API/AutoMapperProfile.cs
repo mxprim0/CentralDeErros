@@ -18,7 +18,9 @@ namespace CentralDeErros.API
             CreateMap<Environment, EnvironmentDTO>().ReverseMap();
             CreateMap<Error, ErrorDTO>().ReverseMap();
             CreateMap<Level, LevelDTO>().ReverseMap();
-            //CreateMap<Logs, LogsDTO>().ReverseMap();
+            CreateMap<Logs, LogsDTO>().ReverseMap();
+            CreateMap<LogsDTO, Logs>().ReverseMap();
+
         }
     }
 }
