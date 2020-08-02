@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {}
+    "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {
+    "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
         "projectName": "CentralDeErros.API",
-        "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
-        "packagesPath": "C:\\Users\\tamrs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.API\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\CentralDeErros.API\\CentralDeErros.API.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\CentralDeErros.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tamrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
-                "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
+              "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+                "projectPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj"
               },
-              "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               },
-              "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
-                "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
+              "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+                "projectPath": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "IdentityServer4": {
               "target": "Package",
               "version": "[4.0.4, )"
@@ -128,12 +132,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -142,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
+    "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
         "projectName": "CentralDeErros.Dominio",
-        "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
-        "packagesPath": "C:\\Users\\tamrs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tamrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +170,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+              "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+                "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
               }
             }
           }
@@ -186,6 +184,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -196,12 +200,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -210,24 +208,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+    "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
         "projectName": "CentralDeErros.Infra.Data",
-        "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\tamrs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Infra.Data\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tamrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,6 +249,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "IdentityServer4": {
               "target": "Package",
               "version": "[4.0.4, )"
@@ -296,12 +298,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -310,24 +306,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
+    "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "projectUniqueName": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
         "projectName": "CentralDeErros.Teste",
-        "projectPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
-        "packagesPath": "C:\\Users\\tamrs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamrs\\OneDrive\\Área de Trabalho\\C#P\\CentralDeErros\\Teste\\obj\\",
+        "projectPath": "C:\\CentralDeErros\\Teste\\CentralDeErros.Teste.csproj",
+        "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
+        "outputPath": "C:\\CentralDeErros\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tamrs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -351,6 +347,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
@@ -378,18 +378,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,3 +34,27 @@ C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Domi
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
 C:\Users\tamrs\OneDrive\Área de Trabalho\C#P\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.deps.json
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csprojAssemblyReference.cache
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfoInputs.cache
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfo.cs
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\Users\Danielly\Desktop\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache
+C:\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.deps.json
+C:\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb
+C:\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.dll
+C:\CentralDeErros\CentralDeErros.Dominio\bin\Debug\netcoreapp3.1\CentralDeErros.Infra.Data.pdb
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csprojAssemblyReference.cache
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfoInputs.cache
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.AssemblyInfo.cs
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CoreCompileInputs.cache
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.csproj.CopyComplete
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.dll
+C:\CentralDeErros\CentralDeErros.Dominio\obj\Debug\netcoreapp3.1\CentralDeErros.Dominio.pdb

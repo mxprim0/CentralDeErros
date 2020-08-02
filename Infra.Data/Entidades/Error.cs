@@ -33,7 +33,7 @@ namespace CentralDeErros.Infra.Entidades
         public int EnvironmentId { get; set; }
 
         [Column("ENVIRONMENT_ID"), Required]
-        public EnvironmentLevel Environment { get; set; }
+        public Environment Environment { get; set; }
 
        
         [ForeignKey("LEVEL_ID"), Required]

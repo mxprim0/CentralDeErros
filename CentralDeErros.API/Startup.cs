@@ -25,6 +25,7 @@ using CentralDeErros.API.ConfigStartup;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using CentralDeErros.Dominio.Interfaces;
+using AutoMapper;
 
 namespace CentralDeErros.API
 {
@@ -40,13 +41,16 @@ namespace CentralDeErros.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup));
             services.AddDbContext<CentralContext>();
             services.AddScoped<ILogsService, LogsService>();
             services.AddScoped<ILogsRepository, LogsRepository>();
             services.AddScoped<IError, ErrorService>();
             services.AddScoped<ILevel, LevelService>();
             services.AddScoped<ILevelRepository, LevelRepository>();
-            services.AddScoped<IErrorRepository, ErrorRepository>(); 
+            services.AddScoped<IErrorRepository, ErrorRepository>();
+            services.AddScoped<IEnvironment, EnvironmentService>();
+            services.AddScoped<IEnvironmentRepository, EnvironmentRepository>();
             services.AddControllers();
             services.AddIdentityConfiguration(Configuration);
 
