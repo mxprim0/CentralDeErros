@@ -15,7 +15,7 @@ namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class LogsController : ControllerBase
     {
         private readonly ILogsService logs;

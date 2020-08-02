@@ -17,7 +17,7 @@ namespace CentralDeErros.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class ErrorController : ControllerBase
     {
         public readonly Dominio.Interfaces.IError logs;
