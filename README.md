@@ -17,6 +17,11 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 - [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)
 - [Auto Mapper](https://github.com/AutoMapper/AutoMapper)
 - [Swagger](https://swagger.io/)
+- [ASP.NET Identity](https://docs.microsoft.com/pt-br/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)
+- [Entity Framework Core](https://docs.microsoft.com/pt-br/ef/core/)
+- [Microsoft Azure](https://azure.microsoft.com/pt-br/)
+- [xUnit.net](https://xunit.github.io/)
+- [Moq](https://github.com/Moq/moq4)
 
 ## Sobre organização e desenvolvimento:
 - Nosso Squad adaptou conceitos da [Metodologia Ágil e Scrum](https://blog.trello.com/br/scrum-metodologia-agil) organizando Sprints semanais para definir as tarefas de cada integrante, onde definiamos prioridades e juntas fazíamos as correções necessários para o projeto.
