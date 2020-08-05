@@ -1901,7 +1901,10 @@
         },
         "runtime": {
           "bin/placeholder/CentralDeErros.Infra.Data.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6484,23 +6487,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ednap\\.nuget\\packages\\": {},
+    "C:\\Users\\Danielly\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
       "projectName": "CentralDeErros.Dominio",
-      "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
-      "packagesPath": "C:\\Users\\ednap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\CentralDeErros.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Danielly\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\CentralDeErros.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ednap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Danielly\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6513,8 +6516,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\ednap\\Desktop\\dto logs\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
+            "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Danielly\\Desktop\\CentralDeErros\\Infra.Data\\CentralDeErros.Infra.Data.csproj"
             }
           }
         }
@@ -6551,7 +6554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

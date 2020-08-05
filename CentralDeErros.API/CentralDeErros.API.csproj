@@ -30,7 +30,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CentralDeErros.Dominio\CentralDeErros.Dominio.csproj" />
     <ProjectReference Include="..\Infra.Data\CentralDeErros.Infra.Data.csproj" />
-    <ProjectReference Include="..\Teste\CentralDeErros.Teste.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
