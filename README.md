@@ -44,4 +44,4 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 - ClearSale | [@ClearSale](https://github.com/ClearSale) a empresa patrocinadora da nossa aceleração, agradecemos por investir em inclusão de mais mulheres em tech.
 - A nossa muito querida professora Alessandra | [@AlessandraSoaresdosSantos](https://github.com/AlessandraSoaresdosSantos), que nunca deixa ninguém para trás.
 - A também nossa atenciosa e super querida Ingrid | [@ingrid139](https://github.com/ingrid139), que nos mentorou e deu suporte durante o curso.
-- E um agradecimento também para a mega querida Djovana | (@djovanaboeing1)[https://github.com/djovanaboeing1], que nunca nos deixou desamparadas.
+- E um agradecimento também para a mega querida Djovana | [@djovanaboeing1](https://github.com/djovanaboeing1), que nunca nos deixou desamparadas.
