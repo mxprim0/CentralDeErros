@@ -31,7 +31,7 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 - A documentação foi feita utilizando um quadro do [Trello](https://trello.com/pt-BR) e as tarefas definidas em cards.
 - Como estávamos todas trabalhando remotamente, as Sprints foram feitas pelo [Google Meet](https://apps.google.com/meet/)
 
-## [Slides da Apresentação](https://docs.google.com/presentation/d/1GWCBhFm6XFSiHEpEjMiYZAUGH63GoCpib-81vaQ6biQ/edit?usp=sharing)
+## [Slides da Apresentação](https://drive.google.com/file/d/1QZnFJi7mXGl-O7iR4_H8F6usjl361jSo/view?usp=sharing)
 
 ## Integrantes do Squad 3:
 - Edna Oliveira | [@eaoliveira](https://github.com/eaoliveira)
