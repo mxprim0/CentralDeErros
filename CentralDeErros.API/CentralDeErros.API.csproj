@@ -23,7 +23,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="6.4.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
   </ItemGroup>
 
